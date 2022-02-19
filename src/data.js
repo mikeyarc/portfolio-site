@@ -3,14 +3,14 @@ import pj2 from "./img/pj2.png"
 import pj3 from "./img/pj3.png"
 import pj4 from "./img/bbsite.png"
 import pj5 from "./img/photosite.png"
+import pj6 from "./img/golf-crud.png"
 
 
 export const projects = [
     {
         id:1 ,
         img: pj1,
-        link: "https://phoneland2.firebaseapp.com/",
-        desc: 'E-Commerce Store made with React'
+        desc: 'Golf Round Tracker App that allows you to save your experiences into a database'
     } ,
 
     {
@@ -32,8 +32,13 @@ export const projects = [
         desc:"Movie Search App made in HTML,CSS and Javascript"
     },
     {
-        id:5 ,
+        id:5,
+        img: pj6,
+        desc:"Golf Round Tracker App that allows you to save your experiences into a database"
+    },
+    {
+        id:6 ,
         img: pj5,
-        desc:"Photography Showcase sample site made in HTML, CSS and Javascript"
-    } 
+        desc:"Sample Photography Showcase"
+    }
 ];
