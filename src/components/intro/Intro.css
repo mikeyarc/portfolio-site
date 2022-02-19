@@ -1,0 +1,164 @@
+.i {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .i-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .i-right {
+    flex: 1;
+    position: relative;
+  }
+  
+  .i-left-wrapper {
+    padding:20px;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .i-intro {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .i-name {
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 40px;
+  }
+  
+  .i-title {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .i-title-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes move {
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    75% {
+      transform: translateY(-150px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+  
+  .i-title-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #08313A;
+    display: flex;
+    align-items: center;
+  }
+  
+  .i-scroll {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .i-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .i-bg {
+    clip-path: polygon(20% 0, 100% 0, 100% 50%, 100% 100%, 13% 100%, 0% 50%);
+    background-color: #5CD85A;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .i-bg .text-container {
+    font: bold;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding:200px;
+  
+    
+  }
+
+.i-desc{
+    font-weight: bold;
+    color:#1A5653;
+}
+ /*Small screen sizes - Iphone SE,Iphone 12*/
+  @media screen and (max-width: 480px) {
+    .i {
+      flex-direction: column;
+    }
+  
+    .i-left-wrapper {
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    .i-desc{
+      display: none;
+    }  
+  }
+
+  /*Small screen sizes --Iphone , Samsung S21 Screen Sizes*/
+  @media screen and (max-width: 480px) {
+    .i {
+      flex-direction: column;
+    }
+  
+    .i-left-wrapper {
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    .i-desc{
+      display: none;
+    }
+
+    .text-container {
+      display: inline;
+    }
+    .logo-img {
+      padding: 40px;
+    }
+  }
+
+  /*Medium screens --Tablets -- Ipads etc*/
+  @media screen and (max-width: 960px) {
+    .i {
+        height: 100%;
+    }
+
+    .i-right {
+      height:50%;
+    }
+    .text-container{
+      height: 40%;
+    }
+}
