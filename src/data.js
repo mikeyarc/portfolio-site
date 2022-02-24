@@ -10,7 +10,8 @@ export const projects = [
     {
         id:1 ,
         img: pj1,
-        desc: 'Golf Round Tracker App that allows you to save your experiences into a database'
+        link: "https://phoneland2.firebaseapp.com/",
+        desc: 'E-Commerce project built using React'
     } ,
 
     {
@@ -29,16 +30,16 @@ export const projects = [
     {
         id:4 ,
         img: pj4,
-        desc:"Movie Search App made in HTML,CSS and Javascript"
+        desc:"Movie Search App using the OMDb API,made in HTML,CSS and Javascript"
     },
     {
         id:5,
         img: pj6,
-        desc:"Golf Round Tracker App that allows you to save your experiences into a database"
+        desc:"Golf Round Tracker App that allows you to save your scores into a database"
     },
     {
         id:6 ,
         img: pj5,
-        desc:"Sample Photography Showcase"
+        desc:"Sample Photography Portfolio Site"
     }
 ];
