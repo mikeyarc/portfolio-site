@@ -104,6 +104,11 @@
     font-weight: bold;
     color:#1A5653;
 }
+
+.a-img {
+  height: 2px;
+  width: 10px;
+}
  /*Small screen sizes - Iphone SE,Iphone 12*/
   @media screen and (max-width: 480px) {
     .i {

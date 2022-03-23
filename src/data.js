@@ -11,31 +11,24 @@ export const projects = [
         id:1 ,
         img: pj1,
         link: "https://phoneland2.firebaseapp.com/",
-        desc: 'E-Commerce project built using React'
-    } ,
-
-    {
-        id:2 ,
-        img: pj2,
-        link: "https://weatherapp5.firebaseapp.com/",
-        desc: "Weather App made with React and OpenWeatherAPI"
+        desc: 'Sample E-Commerce Store - React'
     } ,
 
     {
         id:3 ,
         img: pj3,
         link: "https://pixabayapp5.firebaseapp.com/",
-        desc:"Image Searching App made with React and Pixabay API"
+        desc:"Image Searching App - React"
     },
     {
         id:4 ,
         img: pj4,
-        desc:"Movie Search App using the OMDb API,made in HTML,CSS and Javascript"
+        desc:"Movie Search App - React"
     },
     {
         id:5,
         img: pj6,
-        desc:"Golf Round Tracker App that allows you to save your scores into a database"
+        desc:"Golf Stats Tracker - School Project"
     },
     {
         id:6 ,
@@ -43,3 +36,5 @@ export const projects = [
         desc:"Sample Photography Portfolio Site"
     }
 ];
+
+//google-site-verification=D3Fw8NNhS6NFnQss1Y5dJ7am9smzOaUQuOEbZYSP3Us 
